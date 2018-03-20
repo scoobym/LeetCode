@@ -17,5 +17,4 @@ class Solution:
 
         return self.count
 
-test = Solution()
-print(test.countSubstrings("aabcaa"))
+
