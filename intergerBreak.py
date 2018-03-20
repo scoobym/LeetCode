@@ -25,9 +25,7 @@ class Solution:
                     i=i*3
         return i
 
-test = Solution()
-for i in range(2,59):
-    print(test.integerBreak(i))
+
 
 
             
