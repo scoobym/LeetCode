@@ -6,7 +6,7 @@ class Solution:
         :rtype: void Do not return anything, modify nums in-place instead.
         """
         
-        temp = copy.copy(nums)
+        temp = nums.copy()
         lens = len(nums)
         k = k%lens
         for i in range(lens):
